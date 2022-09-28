@@ -110,3 +110,23 @@
   }
 }
 
+/* Esercizio 11*/
+
+.ex-11-icon:hover{
+  animation: ruota 2s linear;
+}
+
+@keyframes ruota {
+    0%{
+      transform: rotate(0);
+    }
+
+    90%{
+      transform: rotate(315deg);
+    }
+
+    100%{
+      transform: rotate(0);
+    }
+}
+
